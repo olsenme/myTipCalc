@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     @IBAction func calculateTip(_ sender: Any) {
-        let tipPercentages = [0.1,0.18,0.2]
+        let tipPercentages = [0.15,0.18,0.2]
         //get the bill
         let bill = Double(billField.text!) ?? 0
         //calc tip and total
